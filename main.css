@@ -1,0 +1,56 @@
+body {
+  background-color: white;
+}
+
+.card {
+  border-radius: 10px;
+  border: 1px solid black;
+  margin: auto;
+  width: 500px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: wheat;
+}
+
+#taskList {
+  flex-grow: 1;
+  background-color: antiquewhite;
+  margin: 10px;
+  padding: 15px;
+  overflow: hidden;
+}
+input {
+    padding: 3px;
+    padding-left: 20px;
+    height: 5%;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+#clearButton,
+#submit {
+  margin-top: 10px;
+  width: 50%;
+  margin: auto;
+  height: 30px;
+  border-radius: 50px;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+button:hover {
+  background-color: rgb(214, 205, 193);
+  padding: 10px;
+}
+
+#submit,
+#newTask {
+  margin-top: 5px;
+}
